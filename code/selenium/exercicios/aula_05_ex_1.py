@@ -5,7 +5,7 @@
 from selenium.webdriver import Firefox
 from selenium.webdriver.common.by import By
 from urllib.parse import urlparse
-from json import loads
+from urllib.parse import parse_qs
 
 url = "https://curso-python-selenium.netlify.app/exercicio_04.html"
 browser = Firefox()
@@ -21,7 +21,6 @@ def fill_form(browser, nome, email, senha, telefone):
     browser.find_element(By.NAME, 'telefone').send_keys(telefone)
     browser.find_element(By.NAME, 'btn').click()
 
-
 dados = {
     "nome": "Shirley",
     "email": "shirloca@gmail.com",
@@ -34,11 +33,16 @@ fill_form(browser, **dados)
 url = urlparse(browser.current_url)
 query = url.query
 
+query_decoded = parse_qs(query)
 
-text_result = browser.find_element(By.ID, "result").text
-text_result = text_result.replace('\'', '\"')
-dict_result = loads(text_result)
+for param in query_decoded:
+    query_decoded[param] = query_decoded[param][0]
 
-assert dict_result == dados
+main = browser.find_element(By.ID, 'main')
+result_text = main.find_element(By.TAG_NAME, 'textarea').text
 
-# TODO: Fazer o match do resutlado com a query
+result = eval(result_text)
+
+assert result == query_decoded
+
+browser.quit()
