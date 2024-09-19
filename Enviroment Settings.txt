@@ -1,0 +1,10 @@
+Enviroment Settings:
+
+- Python
+- Atom (code editor)
+- Browsers:
+-- Firefox
+-- Chrome
+- Webdriver
+-- Selenium Web-drvier
+- Selenium
