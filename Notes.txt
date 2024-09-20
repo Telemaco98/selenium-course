@@ -1,0 +1,16 @@
+Enviroment Settings:
+
+- Python
+- Atom (code editor)
+- Browsers:
+-- Firefox
+-- Chrome
+- Webdriver
+-- Selenium Web-drvier
+- Selenium
+
+Aulas 06:
+  Links importantes:
+    - https://www.w3.org/TR/CSS2/selector.html
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+    - https://flukeout.github.io/
