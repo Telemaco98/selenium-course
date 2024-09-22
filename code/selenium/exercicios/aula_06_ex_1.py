@@ -16,7 +16,7 @@ def find_instruction(browser):
     """ Get form class name to be fill by Instruction
 
     Parameters:
-    browser (<type>): The browser webdriver
+    browser (WebDriver): The browser webdriver
 
     Returns:
     String: Form class name to be fill
@@ -28,7 +28,7 @@ def fill_form(browser, form_class_name):
     """Fill selected form
 
     Parameters:
-    browser (<type>): The browser webdriver
+    browser (WebDriver): The browser webdriver
     form_class_name (String): The form class name to be filled
     """
     form = browser.find_element(By.CSS_SELECTOR, form_class_name)
