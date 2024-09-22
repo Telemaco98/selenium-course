@@ -13,7 +13,4 @@ Aulas 06:
   Links importantes:
     - https://www.w3.org/TR/CSS2/selector.html
     - https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
-<<<<<<< HEAD
     - https://flukeout.github.io/
-=======
->>>>>>> d120f16e8db2ebbe47e257820188948f8e55a8d8
