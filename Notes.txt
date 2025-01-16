@@ -19,6 +19,17 @@ Aulas 07:
  Links importantes:
     - https://developer.mozilla.org/en-US/docs/Web/API/Event  - API de eventos
     - https://developer.mozilla.org/en-US/docs/Web/Events     - Eventos suportados pelo Mozila Firefox
+    - https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.abstract_event_listener - Documentação do EventListenner
+
+  Lição de casa:
+    - Live de Python #61 - Introdução a orientação a objetos
+      -- Para lidar com classes
+    - Live de Python #68 - Interfaces de ABCs
+      -- Se quiser entender o que é abstrato
+    - Live de Pythhon #115 - Introdução a padrões de projeto
+      -- Vamos usar esses conceitos na aula de page objects
+    - Live de Python #117 - Padrão template method
+      -- Pra entender como funciona o AbstractEventListener
 
 Aula XPATH (Palestra):
   - XML (Extensible Markup Language): é um formato baseado em texto para representação de informações estruturadas
