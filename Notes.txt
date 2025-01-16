@@ -14,3 +14,24 @@ Aulas 06:
     - https://www.w3.org/TR/CSS2/selector.html
     - https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
     - https://flukeout.github.io/
+
+Aulas 07:
+ Links importantes:
+    - https://developer.mozilla.org/en-US/docs/Web/API/Event  - API de eventos
+    - https://developer.mozilla.org/en-US/docs/Web/Events     - Eventos suportados pelo Mozila Firefox
+
+Aula XPATH (Palestra):
+  - XML (Extensible Markup Language): é um formato baseado em texto para representação de informações estruturadas
+    - Exemplos: documentos, arquivos de configuração, livros, transações, etc.
+    - Casos de uso:
+      - Arquivos de configuração
+      - Troca de mensagens entre aplicações
+      - Padrão para documentos (Open Document Format)
+    - Em Python existe algumas bibliotecas que podemos manipular esses arquivos XML
+      - Bibliota padrão: xml.etree.ElementTree
+      - lxml
+      - Parsel: library to extract data from HTML and XML using XPATH and CSS selectors
+  - A indexação do xpath começa em 1, diferente do python que é em 0
+  - Links da aula:
+    https://rennerocha.github.io/xpath/
+    https://devhints.io/xpath
