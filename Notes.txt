@@ -19,7 +19,13 @@ Aulas 07:
  Links importantes:
     - https://developer.mozilla.org/en-US/docs/Web/API/Event  - API de eventos
     - https://developer.mozilla.org/en-US/docs/Web/Events     - Eventos suportados pelo Mozila Firefox
-    - https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.abstract_event_listener - Documentação do EventListenner
+    - https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.abstract_event_listener - Documentação do EventListenner,
+
+Aula 08:
+ Links importantes:
+    - https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent
+    - https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.action_chains
+    - https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.keys
 
   Lição de casa:
     - Live de Python #61 - Introdução a orientação a objetos
